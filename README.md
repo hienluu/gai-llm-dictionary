@@ -6,6 +6,7 @@ My hope is this GAI & LLMs Dictionary will become a valuable resource for anyone
 
 Public contributions are very much welcome
 
+**_The hottest new programming language is English_**
 
 | Term/Acronym        | Definition           | Resource  |
 | ------------------- |:--------------------:| ---------:|
@@ -14,10 +15,10 @@ Public contributions are very much welcome
 | GPT                 | Generated pre-trained transformer, which are ML models that are trained to understand natural language and code.  They provide text outputs in response to their input| [GPT models](https://platform.openai.com/docs/guides/gpt)|
 | Tokens              | A unit of text. LLMs read and write text in chunks called tokens, which are common sequences of characters found in text.  LLMs understand the statistical relationships between tokens and excel at producing the next token in a sequence of tokens.  One token generally corresponds to ~4 characters of text for common English text, which translates to roughly 3/4 of a word.  This means 100 tokens is roughly equivalent to 75 words | [OpenAI tokenizer](https://platform.openai.com/tokenizer)|
 |BPE                   | Byte pair encoding is a way of converting text into tokens.  It has many desire properties, such as reversible, lossless, compression, etc| [BPE github](https://github.com/openai/tiktoken) |
-| Prompts             | The inputs to GPTs | |
-| Prompt engineering  | Also known as in-context prompting. It is referring to method and process of crafting effective prompts to elicite desired reponses from LLMs without updating their model weights. | |
+| Prompts             | The text inputs to GPTs | |
+| Prompt engineering  | Also known as in-context prompting. It is referring to method and process of crafting effective prompts to elicite desired reponses from LLMs without updating their model weights. | [Prompt Engineering](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/)|
 | Zero-shot learning  |Learning to generalize to new classes without training. In other words, when a model successfully solves a problem that it was not explicitly trained on. | |
-| Few-shot learning   | Also known as in-context learning. A method to enable LLMs to generate more accurate responses by providing a few examples (labeled data) | |
+| Few-shot learning   | Also known as in-context learning. A method to enable LLMs to generate more accurate responses by providing a few examples (labeled data) to explain the intent or task instructions.   | |
 | Transformer   | A deep learning model architecture used in NLP tasks | [Attention is all you need paper](https://arxiv.org/pdf/1706.03762.pdf)|
 | Autoregressive model  |A type of model that predicts or genereate next token in a sequence based on the context of the preceding tokens. Examples of autoregressive models are RNN and tranformers  | |
 | Fine-tuning  |The process of adapting a pre-trained LLM to new tasks | |
